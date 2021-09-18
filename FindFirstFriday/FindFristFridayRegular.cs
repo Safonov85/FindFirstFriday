@@ -9,19 +9,23 @@ namespace FindFirstFriday
 {
     public class FindFristFridayRegular
     {
-        public void CreateDateDays()
+        public void CreateFirstFriDays()
         {
-            for (int i = 1; i < 7; i++)
+
+            for (int j = 1; j < 13; j++)
             {
-                // new date days
-                
-                DateTime timeDate = new DateTime(2021, 9, i);
-                if (timeDate.ToString("dddd") == "Friday")
+                for (int i = 1; i < 8; i++)
                 {
-                    Debug.WriteLine("Friday is " + timeDate.Day);
-                    break;
+                    // new date days
+
+                    DateTime timeDate = new DateTime(2021, j, i);
+                    if (timeDate.ToString("dddd") == "Friday")
+                    {
+
+                        Debug.WriteLine(timeDate.ToString("MMMM") + " " + timeDate.Day);
+                        break;
+                    }
                 }
-                
             }
         }
     }

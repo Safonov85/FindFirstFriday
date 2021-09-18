@@ -18,7 +18,7 @@ namespace FindFirstFriday
         {
             InitializeComponent();
 
-            findRegular.CreateDateDays();
+            findRegular.CreateFirstFriDays();
 
             //RegularFindListBox.Items.Add()
         }

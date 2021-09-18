@@ -1,0 +1,10 @@
+C:\Users\Mycomp\source\repos\FindFirstFriday\FindFirstFriday\bin\Debug\FindFirstFriday.exe.config
+C:\Users\Mycomp\source\repos\FindFirstFriday\FindFirstFriday\bin\Debug\FindFirstFriday.exe
+C:\Users\Mycomp\source\repos\FindFirstFriday\FindFirstFriday\bin\Debug\FindFirstFriday.pdb
+C:\Users\Mycomp\source\repos\FindFirstFriday\FindFirstFriday\obj\Debug\FindFirstFriday.csprojAssemblyReference.cache
+C:\Users\Mycomp\source\repos\FindFirstFriday\FindFirstFriday\obj\Debug\FindFirstFriday.Form1.resources
+C:\Users\Mycomp\source\repos\FindFirstFriday\FindFirstFriday\obj\Debug\FindFirstFriday.Properties.Resources.resources
+C:\Users\Mycomp\source\repos\FindFirstFriday\FindFirstFriday\obj\Debug\FindFirstFriday.csproj.GenerateResource.cache
+C:\Users\Mycomp\source\repos\FindFirstFriday\FindFirstFriday\obj\Debug\FindFirstFriday.csproj.CoreCompileInputs.cache
+C:\Users\Mycomp\source\repos\FindFirstFriday\FindFirstFriday\obj\Debug\FindFirstFriday.exe
+C:\Users\Mycomp\source\repos\FindFirstFriday\FindFirstFriday\obj\Debug\FindFirstFriday.pdb
