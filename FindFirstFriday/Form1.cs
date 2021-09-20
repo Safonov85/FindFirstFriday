@@ -20,7 +20,11 @@ namespace FindFirstFriday
 
             findRegular.CreateFirstFriDays();
 
-            //RegularFindListBox.Items.Add()
+            foreach(var item in findRegular.allFridaysList)
+            {
+                RegularFindListBox.Items.Add(item);
+            }
+
         }
     }
 }

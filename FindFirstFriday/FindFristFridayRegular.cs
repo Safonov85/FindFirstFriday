@@ -9,6 +9,8 @@ namespace FindFirstFriday
 {
     public class FindFristFridayRegular
     {
+        public List<string> allFridaysList = new List<string>();
+
         public void CreateFirstFriDays()
         {
 
@@ -23,6 +25,7 @@ namespace FindFirstFriday
                     {
 
                         Debug.WriteLine(timeDate.ToString("MMMM") + " " + timeDate.Day);
+                        allFridaysList.Add(timeDate.ToString("MMMM") + " " + timeDate.Day);
                         break;
                     }
                 }
