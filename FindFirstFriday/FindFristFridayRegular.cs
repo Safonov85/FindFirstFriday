@@ -31,5 +31,10 @@ namespace FindFirstFriday
                 }
             }
         }
+
+        public void CreateFirstFridayLINQ()
+        {
+            // Find First friday in a month using LINQ
+        }
     }
 }
