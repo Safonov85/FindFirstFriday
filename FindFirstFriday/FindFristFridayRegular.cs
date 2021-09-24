@@ -13,6 +13,8 @@ namespace FindFirstFriday
 
         public void CreateFirstFriDays()
         {
+            int year = 2018;
+            allFridaysList.Add(year.ToString() + ":");
 
             for (int j = 1; j < 13; j++)
             {
@@ -20,11 +22,11 @@ namespace FindFirstFriday
                 {
                     // new date days
 
-                    DateTime timeDate = new DateTime(2021, j, i);
+                    DateTime timeDate = new DateTime(year, j, i);
                     if (timeDate.ToString("dddd") == "Friday")
                     {
 
-                        Debug.WriteLine(timeDate.ToString("MMMM") + " " + timeDate.Day);
+                        //Debug.WriteLine(timeDate.ToString("MMMM") + " " + timeDate.Day);
                         allFridaysList.Add(timeDate.ToString("MMMM") + " " + timeDate.Day);
                         break;
                     }
