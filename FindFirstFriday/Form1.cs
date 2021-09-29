@@ -19,10 +19,16 @@ namespace FindFirstFriday
             InitializeComponent();
 
             findRegular.CreateFirstFriDays();
+            findRegular.CreateFirstFridayLINQ();
 
             foreach(var item in findRegular.allFridaysList)
             {
                 RegularFindListBox.Items.Add(item);
+            }
+
+            foreach (var item in findRegular.allFridaysLINQlist)
+            {
+                LINQlistBox.Items.Add(item);
             }
 
         }
