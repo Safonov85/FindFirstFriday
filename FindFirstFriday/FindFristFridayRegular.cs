@@ -12,6 +12,8 @@ namespace FindFirstFriday
         public List<string> allFridaysList = new List<string>();
         public List<string> allFridaysLINQlist = new List<string>();
 
+
+        // Regular
         public void CreateFirstFriDays()
         {
             int year = 2018;
@@ -35,6 +37,8 @@ namespace FindFirstFriday
             }
         }
 
+
+        // LINQ 
         public void CreateFirstFridayLINQ()
         {
             // Find First friday in a month using LINQ
