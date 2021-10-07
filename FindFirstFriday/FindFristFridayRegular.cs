@@ -52,5 +52,10 @@ namespace FindFirstFriday
 
             allFridaysLINQlist.Add(maxNumber.ToString());
         }
+
+        public void CreateFirstFridayLINQTest()
+        {
+            // Testing with LINQ
+        }
     }
 }
