@@ -47,8 +47,8 @@ namespace FindFirstFriday
             //               where b.StartDateTime.DayOfWeek == DayOfWeek.Friday
             //               select b;
 
-            var numbers = new List<int> { 1, 8, 3, 2 };
-            int maxNumber = numbers.Max();
+            var numbers = new List<int> { 1, 8, 3, 2, 5 };
+            int maxNumber = numbers.Last();
 
             allFridaysLINQlist.Add(maxNumber.ToString());
         }
@@ -56,6 +56,8 @@ namespace FindFirstFriday
         public void CreateFirstFridayLINQTest()
         {
             // Testing with LINQ
+
+
         }
     }
 }
