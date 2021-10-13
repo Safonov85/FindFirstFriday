@@ -11,6 +11,7 @@ namespace FindFirstFriday
     {
         public List<string> allFridaysList = new List<string>();
         public List<string> allFridaysLINQlist = new List<string>();
+        public List<string> numberNamesList = new List<string>();
 
 
         // Regular
@@ -56,7 +57,32 @@ namespace FindFirstFriday
         public void CreateFirstFridayLINQTest()
         {
             // Testing with LINQ
-
+            string[] nums = { "One",
+                              "Two",
+                              "Three",
+                              "Four",
+                              "Five",
+                              "Six",
+                              "Seven",
+                              "Eight",
+                              "Nine",
+                              "Ten",
+                              "Eleven",
+                              "Twelve",
+                              "Thirteen",
+                              "Fourteen",
+                              "Fifteen",
+                              "Sixteen",
+                              "Seventeen"
+                           };
+            //Linq query  
+            IEnumerable<string> numberNames = from i in nums
+                                                where i.Length <= 3
+                                                select i;
+            foreach (var num in numberNames)
+            {
+                numberNamesList.Add(num);
+            }
 
         }
     }
