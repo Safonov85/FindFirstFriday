@@ -77,7 +77,7 @@ namespace FindFirstFriday
                            };
             //Linq query  
             IEnumerable<string> numberNames = from i in nums
-                                                where i.Length <= 3
+                                              where i.StartsWith("F")
                                                 select i;
             foreach (var num in numberNames)
             {
