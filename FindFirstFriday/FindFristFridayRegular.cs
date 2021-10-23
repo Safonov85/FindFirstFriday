@@ -85,5 +85,36 @@ namespace FindFirstFriday
             }
 
         }
+
+        public void CreateFirstFridayLINQTest2()
+        {
+            // Testing with LINQ
+            string[] nums = { "One",
+                              "Two",
+                              "Three",
+                              "Four",
+                              "Five",
+                              "Six",
+                              "Seven",
+                              "Eight",
+                              "Nine",
+                              "Ten",
+                              "Eleven",
+                              "Twelve",
+                              "Thirteen",
+                              "Fourteen",
+                              "Fifteen",
+                              "Sixteen",
+                              "Seventeen"
+                           };
+
+            var result = nums.Skip(5);
+            numberNamesList.Clear();
+            foreach (var num in result)
+            {
+                numberNamesList.Add(num);
+            }
+
+        }
     }
 }
