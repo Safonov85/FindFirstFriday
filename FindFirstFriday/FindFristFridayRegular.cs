@@ -116,5 +116,30 @@ namespace FindFirstFriday
             }
 
         }
+
+        public void CreateFirstFridayLINQTest3()
+        {
+            // Testing with LINQ
+            int[] nums = {    78,
+                              432,
+                              4,
+                              12,
+                              54,
+                              543,
+                              7,
+                              1,
+                              83,
+                              92,
+                              23,
+                              23,
+                              14,
+                           };
+
+            var result = nums.Average();
+            numberNamesList.Clear();
+
+            numberNamesList.Add(result.ToString());
+
+        }
     }
 }

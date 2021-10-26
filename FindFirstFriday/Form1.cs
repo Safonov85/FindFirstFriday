@@ -22,6 +22,7 @@ namespace FindFirstFriday
             findRegular.CreateFirstFridayLINQ();
             findRegular.CreateFirstFridayLINQTest();
             findRegular.CreateFirstFridayLINQTest2();
+            findRegular.CreateFirstFridayLINQTest3();
 
 
             foreach (var item in findRegular.allFridaysList)
