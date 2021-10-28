@@ -141,5 +141,30 @@ namespace FindFirstFriday
             numberNamesList.Add(result.ToString());
 
         }
+
+        public void CreateFirstFridayLINQTest4()
+        {
+            // Testing with LINQ
+            int[] nums = {    78,
+                              432,
+                              4,
+                              12,
+                              54,
+                              543,
+                              7,
+                              1,
+                              83,
+                              92,
+                              23,
+                              23,
+                              14,
+                           };
+
+            var result = nums.Sum();
+            numberNamesList.Clear();
+
+            numberNamesList.Add(result.ToString());
+
+        }
     }
 }

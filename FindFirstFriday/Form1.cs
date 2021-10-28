@@ -23,7 +23,7 @@ namespace FindFirstFriday
             findRegular.CreateFirstFridayLINQTest();
             findRegular.CreateFirstFridayLINQTest2();
             findRegular.CreateFirstFridayLINQTest3();
-
+            findRegular.CreateFirstFridayLINQTest4();
 
             foreach (var item in findRegular.allFridaysList)
             {
