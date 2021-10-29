@@ -160,10 +160,17 @@ namespace FindFirstFriday
                               14,
                            };
 
-            var result = nums.Sum();
+            var res = from n in nums
+                      where n > 60
+                      orderby n
+                      select n.ToString();
+
             numberNamesList.Clear();
 
-            numberNamesList.Add(result.ToString());
+            foreach(var i in res)
+            {
+                numberNamesList.Add(i);
+            }
 
         }
     }
