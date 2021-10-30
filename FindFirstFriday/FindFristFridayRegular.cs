@@ -142,6 +142,7 @@ namespace FindFirstFriday
 
         }
 
+        
         public void CreateFirstFridayLINQTest4()
         {
             // Testing with LINQ
@@ -160,6 +161,7 @@ namespace FindFirstFriday
                               14,
                            };
 
+            // Query LINQ
             var res = from n in nums
                       where n > 60
                       orderby n
@@ -167,7 +169,14 @@ namespace FindFirstFriday
 
             numberNamesList.Clear();
 
-            foreach(var i in res)
+            // Lambda LINQ
+            var rus = nums.Where(n => n > 60)
+                          .OrderBy(n => n)
+                          .Select(n => n.ToString());
+
+            // Both give SAME result
+
+            foreach (var i in res)
             {
                 numberNamesList.Add(i);
             }
