@@ -182,5 +182,26 @@ namespace FindFirstFriday
             }
 
         }
+
+        public void CreateFirstFridayLINQTest5()
+        {
+            numberNamesList.Clear();
+
+            string[] nums = {
+                              "Two",
+                              "Three",
+                              "Ten",
+                              "Twelve",
+                              "Thirteen"
+                           };
+
+            
+            var res = nums.All(n => n.StartsWith("T")); // Does all start with letter T ?
+
+            
+            numberNamesList.Add(res.ToString()); // result
+            
+
+        }
     }
 }
