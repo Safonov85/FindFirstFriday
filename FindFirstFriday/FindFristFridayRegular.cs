@@ -192,7 +192,9 @@ namespace FindFirstFriday
                               "Three",
                               "Ten",
                               "Twelve",
-                              "Thirteen"
+                              "Thirteen",
+                              "Million",
+                              "Thirty"
                            };
 
             
